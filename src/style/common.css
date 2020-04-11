@@ -1,12 +1,27 @@
 @charset "utf-8";
 
-body {
-  font-family: "APPLE SD Gothic NEO", "Noto Sans CJK KR", '맑은 고딕', '돋움', sans-serif;
-  font-size: small;
-  line-height: 1.6; 
-  color: #000;
-}
-
 // -webkit-appearance: none;
 // -webkit-tap-highlight-color: rgba(0,0,0,0);
 // user-select: none;
+
+html, body {
+  font-family: "APPLE SD Gothic NEO", "Noto Sans CJK KR", '맑은 고딕', '돋움', sans-serif;
+  // font-family: 'AppleSDGothicNeo-Light', "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: large;
+  line-height: 1.6; 
+  word-spacing: -1px;
+  color: #000;
+}
+
+body {
+  margin: .5em;
+  margin-left: 1em;
+}
+
+h1, h2, h3 {
+    font-family: 'AppleSDGothicNeo-Thin'; 
+    font-weight: 100;
+    /* font-size: 1.2em; */
+    /* line-height: 1; */
+    /*color: #999;*/
+}
